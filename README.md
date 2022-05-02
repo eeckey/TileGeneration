@@ -1,7 +1,7 @@
 # TileGeneration
-Emily Eckey
-GEOG 458 Sp 22: Advanced Digital Geographies, Section AC
-Lab 4: Map Design and Tile Generation
+Emily Eckey \
+GEOG 458 Sp 22: Advanced Digital Geographies, Section AC \
+Lab 4: Map Design and Tile Generation \
 May 6, 2022
 
 ## Project Introduction
