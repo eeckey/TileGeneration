@@ -10,11 +10,11 @@ This project includes four tile sets of geographic phenomena.
 ## URL to Access Web Map
 
 ## Tile Set Layers
-Tile Set 1
-**screenshot**
-Examined geographic area: 
-Available zoom layers: 
-Description of tile set: 
+### Tile Set 1: Modified Basemap
+![Tile 1](/img/basemap.png "Tile 1") 
+- Examined geographic area: Seattle, WA [-122.2559435, 47.6002614] and surrounding area
+- Available zoom layers: Min - 1; Max - 14.
+- Description of tile set: Modified the basemap with font changes to Helvetica and size. 
 
 Tile Set 2
 **screenshot**
