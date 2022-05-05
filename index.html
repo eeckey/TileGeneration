@@ -84,7 +84,7 @@
 
         map.on('load', () => { 
 
-            map.addSource('tile1-basemap', {
+            map.addSource('tile-basemap', {
                 'type': 'raster',
                 'tiles': [
                     'assets/basemap/{z}/{x}/{y}.png'
@@ -117,7 +117,7 @@
                 'layout': {
                     'visibility': 'none'
                 },
-                'source': 'tile1-basemap'
+                'source': 'tile-basemap'
             });
             
             map.addLayer({
