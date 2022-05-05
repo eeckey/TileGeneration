@@ -7,7 +7,7 @@ May 6, 2022
 ## Project Introduction
 This project includes four tile sets of geographic phenomena. 
 
-## URL to Access Web Map
+## [Access the Web Map](https://eeckey.github.io/TileGeneration/)
 
 ## Tile Set Layers
 ### Tile Set 1: Modified Basemap
