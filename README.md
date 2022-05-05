@@ -29,9 +29,9 @@ This project includes four tile sets of geographic phenomena.
 
 ### Tile Set 4
 **screenshot**
-Examined geographic area: Seattle, WA [-122.2559435, 47.6002614] and surrounding area
-Available zoom layers: Min - 8; Max - 10
-Description of tile set: Map layer designed over Mapbox. It embodies a map theme relevant to my research interests of the environment. Te map uses the color, icon, and label to realize the theme.
+- Examined geographic area: Seattle, WA [-122.2559435, 47.6002614] and surrounding area
+- Available zoom layers: Min - 8; Max - 10
+- Description of tile set: Map layer designed over Mapbox. It embodies a map theme relevant to my research interests of the environment. Te map uses the color, icon, and label to realize the theme.
 
 ## Data Sources
 I exporteda CSV format of [Seattle Public Art Data](https://data.seattle.gov/Community/Public-Art-Data/j7sn-tdzk/data) from [Seattle Open Data](https://data.seattle.gov/). I then used QGIS to create a shapefile from the CSV and save the points of each public art location in Seattle. 
