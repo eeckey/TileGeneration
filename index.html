@@ -102,19 +102,19 @@
                 'attribution': 'Map tiles designed by Emily Eckey'
             });
             
-           map.addSource('extra', {
+           map.addSource('tile3-basemap-and-art', {
                 'type': 'raster',
                 'tiles': [
-                    'assets/basemap-and-art/{z}/{x}/{y}.png'
+                    'assets/tile3/{z}/{x}/{y}.png'
                 ],
                 'tileSize': 256,
                 'attribution': 'Map tiles designed by Emily Eckey'
             });
             
-           map.addSource('tile3-basemap-and-art', {
+            map.addSource('tile4', {
                 'type': 'raster',
                 'tiles': [
-                    'assets/tile3/{z}/{x}/{y}.png'
+                    'assets/smile-month/{z}/{x}/{y}.png'
                 ],
                 'tileSize': 256,
                 'attribution': 'Map tiles designed by Emily Eckey'
@@ -138,15 +138,6 @@
                 'source': 'tile2-art'
             });
             
-            map.addLayer({
-                'id': 'extra-tile',
-                'type': 'raster',
-                'layout': {
-                    'visibility': 'none'
-                },
-                'source': 'extra'
-            });
-            
            map.addLayer({
                 'id': 'basemap-and-public-art',
                 'type': 'raster',
@@ -155,6 +146,15 @@
                 },
                 'source': 'tile3-basemap-and-art'
             });
+            
+           map.addLayer({
+                'id': 'smile-month',
+                'type': 'raster',
+                'layout': {
+                    'visibility': 'none'
+                },
+                'source': 'tile4'
+            });
 
         });
 
@@ -162,12 +162,12 @@
         // After the last frame rendered before the map enters an "idle" state.
         map.on('idle', () => {
             // If these two layers were not added to the map, abort
-        if (!map.getLayer('basemap', 'seattle-public-art', 'extra-tile', 'basemap-and-public-art')) {
+        if (!map.getLayer('basemap', 'seattle-public-art', 'basemap-and-public-art', 'smile-month')) {
                 return;
             }
 
             // Enumerate ids of the layers.
-            const toggleableLayerIds = ['basemap', 'seattle-public-art', 'extra-tile', 'basemap-and-public-art'];
+            const toggleableLayerIds = ['basemap', 'seattle-public-art', 'basemap-and-public-art', 'smile-month'];
 
             // Set up the corresponding toggle button for each layer.
             for (const id of toggleableLayerIds) {
