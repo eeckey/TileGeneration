@@ -92,6 +92,15 @@
                 'tileSize': 256,
                 'attribution': 'Map tiles designed by Emily Eckey'
             });
+            
+            map.addSource('tile2', {
+                'type': 'raster',
+                'tiles': [
+                    'assets/seattleart/{z}/{x}/{y}.png'
+                ],
+                'tileSize': 256,
+                'attribution': 'Map tiles designed by Emily Eckey'
+            });
 
             map.addLayer({
                 'id': 'art-dataset',
@@ -101,6 +110,15 @@
                 },
                 'source': 'art-tiles'
             });
+            
+            map.addLayer({
+                'id': 'tile2-art',
+                'type': 'raster',
+                'layout': {
+                    'visibility': 'none'
+                },
+                'source': 'tile2'
+            });
 
         });
 
@@ -108,12 +126,12 @@
         // After the last frame rendered before the map enters an "idle" state.
         map.on('idle', () => {
             // If these two layers were not added to the map, abort
-        if (!map.getLayer('art-dataset')) {
+        if (!map.getLayer('art-dataset', 'tile2-art')) {
                 return;
             }
 
             // Enumerate ids of the layers.
-            const toggleableLayerIds = ['art-dataset'];
+            const toggleableLayerIds = ['art-dataset', 'tile2-art'];
 
             // Set up the corresponding toggle button for each layer.
             for (const id of toggleableLayerIds) {
