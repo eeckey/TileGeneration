@@ -10,7 +10,7 @@ This project includes four tile sets of geographic phenomena. I use an index.htm
 
 ## Tile Set Layers
 ### Tile Set 1: Modified Basemap
-![Tile 1](/img/basemap.png "Tile 1") 
+![Tile 1](/img/basemap1.png "Tile 1") 
 - Examined geographic area: Seattle, WA [-122.2559435, 47.6002614] and surrounding area
 - Available zoom layers: Min - 8; Max - 10.
 - Description of tile set: Used basemap titled "Monocrome" in the dark mode provided by MapBox. Modified the basemap with font changes and size. 
@@ -28,7 +28,7 @@ This project includes four tile sets of geographic phenomena. I use an index.htm
 - Description of tile set: Layer group that is composed of a thematic layer of Seattle public art from tile set 2 and a basemap from tile set 1.
 
 ### Tile Set 4
-![Smile Month](/img/smile-month.png "Smile Month") 
+![Smile Month](/img/smiles-month.png "Smile Month") 
 - Examined geographic area: Seattle, WA [-122.2559435, 47.6002614] and surrounding area
 - Available zoom layers: Min - 8; Max - 10
 - Description of tile set: Map layer designed over Mapbox. It embodies a map theme of May is Smile Month. The map uses the colors of yellow with blue and green environment colors and city labels to realize the theme of smiling this month!
