@@ -10,7 +10,7 @@ This project includes four tile sets of geographic phenomena. I use an index.htm
 
 ## Tile Set Layers
 ### Tile Set 1: Modified Basemap
-![Tile 1](/img/basemap.png "Tile 1") 
+![Tile 1](/img/tile1-basemap.png "Tile 1") 
 - Examined geographic area: Seattle, WA [-122.2559435, 47.6002614] and surrounding area
 - Available zoom layers: Min - 8; Max - 10.
 - Description of tile set: Used basemap titled "Monocrome" in the dark mode provided by MapBox. Modified the basemap with font changes and size. 
