@@ -5,7 +5,7 @@ Lab 4: Map Design and Tile Generation \
 May 6, 2022
 
 ## Project Introduction
-This project includes four tile sets of geographic phenomena. I use an index.html to visualize the four tile map sets. The map is shown in the full screen and users can use the layer switcher to turn on and off each map layer. The title and description gives insight to the user on the meaning of the layer tabs.
+This project includes four tile sets of geographic phenomena. I use an index.html to visualize the four tile map sets. The map is shown in the full screen and users can use the layer switcher to turn on and off each map layer. The title and description gives insight to the user on the meaning of the layer tabs. Attribution for each map tile was also added. 
 - [Access the Web Map](https://eeckey.github.io/TileGeneration/)
 
 ## Tile Set Layers
