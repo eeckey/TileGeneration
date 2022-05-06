@@ -37,7 +37,8 @@ This project includes four tile sets of geographic phenomena. I use an index.htm
 I exported a CSV format of [Seattle Public Art Data](https://data.seattle.gov/Community/Public-Art-Data/j7sn-tdzk/data) from [Seattle Open Data](https://data.seattle.gov/). I then used QGIS to create a shapefile from the CSV and save the points of each public art location in Seattle. 
 
 ## Credits
-[Professor Zhao's GitHub Tutorial](https://github.com/jakobzhao/geog458/tree/master/labs/lab04)
+- [MapBox](https://docs.mapbox.com/mapbox.js/api/v3.3.1/)
+- [Professor Zhao's GitHub Tutorial](https://github.com/jakobzhao/geog458/tree/master/labs/lab04)
 
 ## Acknowledgments
 Thank you Professor Zhao and Jiaxin Feng for your assistance with this lab.
